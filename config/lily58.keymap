@@ -74,11 +74,11 @@
 
         layer_6 {
             bindings = <
-&trans  &trans          &trans          &trans     &trans  &trans                    &trans           &trans        &trans  &trans  &trans  &trans
-&trans  &trans          &kp UP_ARROW    &trans     &trans  &trans                    &trans           &trans        &trans  &trans  &trans  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans                    &trans           &trans        &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans     &trans  &trans  &trans    &trans  &trans           &trans        &trans  &trans  &trans  &trans
-                                        &trans     &trans  &trans  &trans    &trans  &kp RIGHT_SHIFT  &kp LEFT_GUI  &trans
+&kp C_VOL_UP  &kp C_VOLUME_UP  &trans          &trans     &trans  &trans                    &trans           &trans        &trans  &trans  &trans  &trans
+&trans        &trans           &kp UP_ARROW    &trans     &trans  &trans                    &trans           &trans        &trans  &trans  &trans  &trans
+&trans        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT  &trans  &trans                    &trans           &trans        &trans  &trans  &trans  &trans
+&trans        &trans           &trans          &trans     &trans  &trans  &trans    &trans  &trans           &trans        &trans  &trans  &trans  &trans
+                                               &trans     &trans  &trans  &trans    &trans  &kp RIGHT_SHIFT  &kp LEFT_GUI  &trans
             >;
         };
 
